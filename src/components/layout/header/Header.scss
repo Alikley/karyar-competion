@@ -1,0 +1,129 @@
+@import "~bootstrap/scss/bootstrap";
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 7px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  }
+  #navbar{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #navbar li{
+    padding: 0px 60px;
+    position: relative;
+  }
+  #navbar li .navlink{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+  }
+  ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+  }
+  #navbar li .navlink:hover,
+  #navbar li .navlink:active{
+  color: #17cf97;
+  }
+  #navbar li .navlink:hover::after,
+  #navbar li .navlink:active::after{
+    color: #17cf97;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #17cf97;
+    position: absolute;
+    bottom: -4px;
+    right: 60px;
+  }
+  //dropdown1
+
+  #basic-nav-dropdown:hover{
+    color: #17cf97;
+  }
+
+  #basic-nav-dropdown:hover  #item::after,
+    #item::after{
+    color: #17cf97;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #17cf97;
+    position: absolute;
+    bottom: -4px;
+    right: 60px;
+  }
+  //dropdown2
+
+
+
+
+
+  .mobile {
+    display: none;
+  }
+  
+  .mobile i {
+    color: #000000;
+    align-items: center;
+    
+  }
+  
+  @media screen and (max-width: 769px) {
+    #navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: fixed;
+      top: 90px;
+      right: -300px;
+      width: 300px;
+      height: 40vh;
+      background: #2a3239;
+      box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+      padding: 40px 0px 0px 40px;
+      margin: 0px -87vh;
+      transition: 0.3s ease-in-out;
+      border-radius: 5px;
+    }
+  
+    #navbar.active {
+      right: 60px;
+    }
+  
+    #navbar li {
+      margin-bottom: 25px;
+    }
+  #img{
+    transform: translateX(-4vh) translateY(11px);
+ 
+
+  }
+  #log{
+    transform: translateX(-8vh) translateY(0.5vh);
+  }
+    .mobile {
+      display: block;
+      transform: translateX(35vh);
+    }
+  
+    .mobile i {
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+      

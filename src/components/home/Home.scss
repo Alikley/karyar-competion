@@ -1,0 +1,205 @@
+.home{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    .banner{
+    height: 750px;
+width: 100%;
+left: 0px;
+top: 0px;
+background: rgba(0, 152, 74, 0.05);
+    }
+    .st{
+        position: absolute;
+        padding: 0px 51px;
+        font-size: 20px;
+    }
+    .logo{
+        position: absolute;
+        padding: 70px 10vh;
+        font-weight: bolder;
+    }
+    .title{
+        position: absolute;
+        padding: 15vh 9vh;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 157.5%;
+/* identical to box height, or 76px */
+        text-align: right;
+    }
+    .content{
+        position: absolute;
+        padding: 40vh 10vh;
+        font-style: normal;
+        font-family: 'IRANSansX';
+        font-size: 20px;
+        font-weight: 400;
+        /* or 35px */
+        line-height: 175%;
+
+        text-align: right;
+    }
+   
+    .image1{
+        position: absolute;
+        left: 81.28%;
+        right: 16%;
+        top: 65vh;
+        bottom: 24.44%;
+    }
+    .image2{
+        position: absolute;
+        left: 83.81%;
+        right: 12%;
+        top: 65vh;
+        bottom: 24.44%;
+    }
+    .image3{
+        position: absolute;
+        left: 87.53%;
+        right: 8%;
+        top: 65vh;
+        bottom: 24.44%;
+    }
+    .image4{
+    position: absolute;
+    left: 91.06%;
+    right: 4.8%;
+    top: 65vh;
+    bottom: 24.44%;
+        
+    }
+    .stu{
+    padding: 60vh 45vh;    
+    position: absolute;
+    font-family: 'IRANSansXFaNum';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 151%;
+    text-align: center;
+    }
+    .box1{
+        border: solid 0.5px #000;
+        display: inline-block;
+        padding: 9px 10px;
+        margin: 30px ;
+        background-color: rgb(255, 255, 255);
+        border-radius: 7px;
+        transform: translateY(90px);
+        
+    }
+    .box1 .value1{
+        transform: translateY(10px);
+        font-weight: bolder;
+        font-size: 4vh;
+        color: #D34B7F;
+    }
+    .box1 .value2{
+        transform: translateY(10px);
+        font-weight: bolder;
+        font-size: 4vh;
+        color: #D34B7F;
+    }
+    .box1 .value3{
+        transform: translateY(10px);
+        font-weight: bolder;
+        font-size: 4vh;
+        color: #D34B7F;
+    }
+    .box1 p {
+        padding: 0px;
+        transform: translateY(14px);
+        font-weight: bold;
+    }
+    .value1::after {
+        font: 800 40px system-ui;
+        content: counter(count);
+        animation: counter 2s linear infinite alternate;
+        counter-set: count 5;
+      }
+      .value2::after {
+        font: 800 40px system-ui;
+        content: counter(count);
+        animation: counter 2s linear infinite alternate;
+        counter-set: count 90;
+      }
+      .value3::after {
+        font: 800 40px system-ui;
+        content: counter(count);
+        animation: counter 2s linear infinite alternate;
+        counter-set: count 88;
+      }
+
+
+    //   card************************
+    .card {
+        width: 424px;
+        height: 144px;
+        margin:35px 104vh;
+        background: #FFFFFF;
+        border: 0.5px solid #959595;
+        border-radius: 12px;
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+       .card2 {
+        width: 424px;
+        height: 144px;
+        margin:0vh 104vh;
+        background: #FFFFFF;
+        border: 0.5px solid #959595;
+        border-radius: 12px;
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       .card3 {
+        width: 424px;
+        height: 144px;
+        margin:-144px 45vh  69px 0px;
+        background: #FFFFFF;
+        border: 0.5px solid #959595;
+        border-radius: 12px;
+       }
+
+
+
+
+
+       .card4 {
+        width: 424px;
+        height: 144px;
+        margin:-51.3vh 45vh 30vh 0px;
+        background: #FFFFFF;
+        border: 0.5px solid #959595;
+        border-radius: 12px;
+       }
+      
+    
+}

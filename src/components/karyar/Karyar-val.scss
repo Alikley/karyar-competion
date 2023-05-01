@@ -1,0 +1,125 @@
+.karyar{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgba(0, 152, 74, 0.04);
+  height: 3469px;
+  .text h1{
+    padding: 80px 0px 0px 160vh;
+  }
+  .text img{
+    transform: translateY(-50px) translateX(48vh);
+  }
+  .box{
+    width: 1320px;
+height: 1300px;
+margin: 0px 10vh;
+top: 233px;
+
+background: #FFFFFF;
+border-radius: 12px;
+  }
+  .box h3{
+    padding: 45px;
+  }
+  .box p{
+    padding: 0px 100px;
+  }
+  .box .form-left{
+    width: 70%;
+    height: 10%;
+    margin: 10px 0px 35px;
+    transform: translateX(-8vh);
+  }
+
+  .box .form-right{
+    width: 70%;
+    height: 10%;
+    margin: 10px 0px 35px;
+    transform: translateX(-15vh);
+  }
+  .box .form-boot{
+    width: 80%;
+    transform: translateX(-16.5vh);
+    padding: 40px 15px; 
+  }
+  .lbl{
+    transform: translateX(65vh);
+  }
+ .box Button{
+  width: 200px;
+  height: 50px;
+  transform: translateY(28vh) translateX(65vh);
+  padding: 0px 0px 0px 0px;
+  color: #FFFFFF;
+ }
+ .box2{
+flex-direction: column;
+align-items: center;
+padding: 60px 40px;
+margin: 0px 0px 70px;
+width: 1320px;
+height: 315px;
+transform: translateY(80px) translateX(-75px);
+background: #FFFFFF;
+border-radius: 12px;
+top: 50%;
+ }
+ .box2 p{
+  padding: 20px 120px;
+ }
+ .box3{
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 40px;
+margin: 0px 0px 70px;
+  width: 1320px;
+  height: 315px;
+  transform: translateY(80px) translateX(-75px);
+  background: #FFFFFF;
+  border-radius: 12px;
+  top: 50%;
+   }
+   .box3 p{
+    padding: 20px 120px;
+   }
+   .box4{
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 40px;
+margin: 0px 0px 70px;
+
+    width: 1320px;
+    height: 315px;
+    transform: translateY(80px) translateX(-75px);
+    background: #FFFFFF;
+    border-radius: 12px;
+    top: 50%;
+     }
+     .box4 p{
+      padding: 20px 120px;
+     }
+     .box5{
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 40px;
+  margin: 0px 0px 10px;
+  
+      width: 100%;
+      height: 715px;
+      transform: translateY(80px);
+      background: #FFFFFF;
+      border-radius: 12px;
+      top: 50%;
+     }
+     .box5 p{
+      font-weight: 800;
+      padding: 20px;
+     }
+     .box5 .left{
+      transform: translateY(-48vh) translateX(-38vh);
+     }
+     .box5 .right{
+      transform: translateY(-48vh) translateX(38vh);
+     }
+}
